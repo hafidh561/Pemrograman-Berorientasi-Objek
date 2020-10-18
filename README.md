@@ -1,2 +1,2 @@
 # Pemrograman-Berorientasi-Objek
-Kumpulan jawaban tugas mata kuliah PBO D4 MI 2019A UNESA
+Kumpulan beberapa contoh program PBO di Python 3
