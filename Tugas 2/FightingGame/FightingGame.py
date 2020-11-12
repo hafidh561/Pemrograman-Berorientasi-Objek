@@ -1,5 +1,5 @@
 class FightingGame:
-	def __init__(self, name, attack_hit_point, attack_kick_point, life_point=100):
+	def __init__(self, name, attack_hit_point, attack_kick_point):
 		if (not type(name) is str) or \
 				(not type(life_point) is int) or \
 				(not type(attack_hit_point) is int) or \
@@ -8,7 +8,7 @@ class FightingGame:
 		self.__name = name
 		self.__attack_hit_point = attack_hit_point
 		self.__attack_kick_point = attack_kick_point
-		self.__life_point = life_point
+		self.__life_point = 100
 
 	# Getter name
 	@property
