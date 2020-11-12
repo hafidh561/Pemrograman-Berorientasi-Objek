@@ -1,7 +1,6 @@
 class FightingGame:
 	def __init__(self, name, attack_hit_point, attack_kick_point):
 		if (not type(name) is str) or \
-				(not type(life_point) is int) or \
 				(not type(attack_hit_point) is int) or \
 				(not type(attack_kick_point) is int):
 			raise TypeError("Masukkan dengan benar!!!")
