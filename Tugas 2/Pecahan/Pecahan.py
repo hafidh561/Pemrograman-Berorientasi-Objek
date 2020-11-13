@@ -18,6 +18,8 @@ class Pecahan:
 	# METHOD UTAMA
 
 	def tambah(self, angka_2):
+		if (not type(angka_2) is Pecahan):
+			raise TypeError("Masukkan objek pecahan!!!")
 		new_penyebut = angka_2.penyebut * self.__penyebut
 		pembilang_1 = (new_penyebut / self.__penyebut) * self.__pembilang
 		pembilang_2 = (new_penyebut / angka_2.penyebut) * angka_2.pembilang

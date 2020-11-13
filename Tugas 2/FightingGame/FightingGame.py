@@ -56,6 +56,8 @@ class FightingGame:
 
 	# Memukul Musuh
 	def hit(self, GameCharacter):
+		if (not type(GameCharacter) is FightingGame):
+			raise TypeError("Masukkan objek FightingGame")
 		if self.lawan_ko(GameCharacter) or self.saya_ko():
 			print("Nyawa {0} sudah mencapai 0".format(GameCharacter.name))
 		else:
@@ -66,6 +68,8 @@ class FightingGame:
 
 	# Menendang Musuh
 	def kick(self, GameCharacter):
+		if (not type(GameCharacter) is FightingGame):
+			raise TypeError("Masukkan objek FightingGame")
 		if self.lawan_ko(GameCharacter) or self.saya_ko():
 			print("Nyawa {0} sudah mencapai 0".format(GameCharacter.name))
 		else:
