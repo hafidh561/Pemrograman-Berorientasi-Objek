@@ -1,0 +1,11 @@
+Abstract Class
+- Abstract class adalah sebuah class blueprint yang instance nya adalah class
+- Abstract class terdiri dari beberapa abstract method dan juga method normal
+- Abstract class tidak bisa diinstance menjadi sebuah objek
+- Instance class method dari abstract class harus didefiniskan
+- Abstract method didalam abstract class bisa berupa logic maupun method prototype
+
+Interface
+- Interface adalah sebuah class yang semua methodnya adalah abstract method
+- Interface hanya bisa mendeklarasi method prototype dan tidak ada logic
+- Instance dari interface adalah sebuah class maupun abstract class
