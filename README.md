@@ -1,5 +1,5 @@
 # Pemrograman-Berorientasi-Objek
-Kumpulan beberapa contoh program PBO di Python 3
+Kumpulan beberapa contoh PBO di Python 3
 
 
 #### License
